@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+    <style>
+      div {
+        margin: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>My First Form</h1>
+    <form>
+      <fieldset>
+        <div>
+          <input type="radio" name="gender" value="male" id="male" checked />
+          <label for="male">Άνδρας</label>
+          <input type="radio" name="gender" value="female" id="female" />
+          <label for="female">Γυναίκα</label>
+        </div>
+
+        <div>
+          <input type="checkbox" name="vehicle" value="car" id="car" checked />
+          <label for="car">car</label>
+          <input type="checkbox" name="vehicle" value="bicycle" id="bicycle" />
+          <label for="bicycle">bicycle</label>
+        </div>
+
+        <div>
+          <label for="nationality">Choose Nationality</label>
+          <select name="nationality" id="nationality">
+            <option value="" disabled hidden selected>
+              Choose nationality
+            </option>
+            <option value="greek">Greece</option>
+            <option value="english">England</option>
+            <option value="spanish">Spain</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="firstname">Name</label>
+          <input type="text" name="firstname" id="firstname" />
+        </div>
+
+        <div>
+          <label for="surname">Surname</label>
+          <input
+            type="text"
+            name="surname"
+            id="surname"
+            required
+            minlength="5"
+            max="20"
+          />
+        </div>
+
+        <div>
+          <label for="workExperience">Work Experience</label>
+          <input type="number" name="work-experience" id="workExperience" />
+        </div>
+
+        <div>
+          <label for="birthday">Date of Birth</label>
+          <input type="date" name="birthday" id="birthday" />
+        </div>
+
+        <div>
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" required />
+        </div>
+
+        <div>
+          <textarea
+            name="message"
+            id="message"
+            cols="40"
+            rows="4"
+            placeholder="Please, leave as a message..."
+          ></textarea>
+        </div>
+      </fieldset>
+
+      <div>
+        <input type="submit" value="Submit" />
+      </div>
+    </form>
+  </body>
+</html>
