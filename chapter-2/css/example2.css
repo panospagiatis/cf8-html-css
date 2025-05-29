@@ -1,0 +1,44 @@
+body {
+  background-color: #f8f8f8;
+}
+
+h1 {
+  color: rgb(34, 34, 34);
+}
+
+p,
+li {
+  font-size: 16px;
+  color: rgb(86, 86, 86);
+  line-height: 1.5em;
+}
+
+li {
+  list-style-type: square;
+}
+
+.aueb-text {
+  color: black;
+  font-size: larger;
+}
+
+img.aueb-logo {
+  width: 800px;
+  border: 1px solid rgb(86, 86, 86);
+  padding: 1px;
+  height: auto;
+}
+
+a:link {
+  color: rgb(86, 86, 86);
+  text-decoration: underline;
+}
+
+a:visited {
+  color: rgb(246, 26, 26);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}

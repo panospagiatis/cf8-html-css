@@ -1,0 +1,53 @@
+body {
+  background-color: lightgray;
+}
+
+.container {
+  border: 1px solid darkgrey;
+  background-color: #f0f0f0;
+  padding: 20px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cf-title {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 2.5rem;
+  font-style: oblique;
+}
+
+.cf-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.courses-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  color: #ff0000;
+  text-decoration: underline;
+}
+
+.courses-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: blueviolet;
+  text-align: justify;
+  text-indent: 15px;
+  line-height: 1.5;
+}
+
+.social {
+  font-size: 1.4rem;
+}
+
+.social .fa-facebook {
+  color: blue;
+}
+
+.social .fa-linkedin {
+  color: orangered;
+}

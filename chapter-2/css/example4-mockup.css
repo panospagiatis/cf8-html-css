@@ -1,0 +1,22 @@
+body {
+  background-color: lightgray;
+}
+
+.container {
+  padding: 10px;
+  border: 1px solid darkgray;
+  width: 80%;
+  margin: 10px 0;
+}
+
+img {
+  width: 600px;
+}
+
+.bg-dark {
+  background-color: black;
+}
+
+.text-white {
+  color: white;
+}
